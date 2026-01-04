@@ -1,0 +1,97 @@
+# Role & Objective
+You are a Senior Full-Stack Developer and UX Expert specializing in high-converting personal brand websites. You are building a portfolio site for Denisa Rohunová.
+
+**Core Identity:**
+Denisa is an AI Consultant with a unique edge: She is a **Former Full-stack Developer** (technical depth) AND a **Former Professional Squash Athlete** (discipline/drive), now bridging the gap between tech and human empathy. She is also the **EU Innovation Star 2024**.
+
+**Goal:**
+Create a responsive, bilingual (CZ/EN), and highly interactive website using Next.js 14, Tailwind CSS, and Framer Motion. The site must feel "Apple-premium" but warm and human.
+
+# Input Data & Assets
+You have access to the following files/folders. USE THEM:
+1.  `client-logos/`: Images of client logos (Note: They have white backgrounds).
+2.  `photos/`: Denisa's professional photos.
+3.  `Text-na-web-mně`: Source text for Bio, Story, and USP.
+4.  `mojeReference`: Client testimonials (text + photos + 2 YouTube links).
+5.  `podcast a vystoupení`: Links to Podcast and TV appearance.
+
+# Technical Requirements
+1.  **Stack:** Next.js (App Router), Tailwind CSS, Framer Motion, Lucide React (icons).
+2.  **Localization:**
+    * Default language: **Czech (CZ)** if the user is in the Czech Republic.
+    * Fallback/International: **English (EN)**.
+    * Include a visible **Language Toggle** in the Navbar (CZ | EN).
+    * Implement logic to detect locale or default to CZ, but allow manual override.
+3.  **Colors:**
+    * Primary Accent: `#6100D1` (Light Purple).
+    * Secondary: `#4D007A` (Dark Purple).
+    * Background: Clean White (`#FFFFFF`). *Crucial because client logos have white backgrounds.*
+4.  **SEO:** Fully optimized (Meta tags, OpenGraph, Semantic HTML).
+
+# Content Strategy & Layout (Strict Order)
+
+## 1. Navbar
+* Logo (Denisa Rohunová).
+* Links: O mně (About), Služby (Services), Reference, Kontakt.
+* Language Switcher.
+* CTA Button: "Rezervovat konzultaci" (Links to Cal.com).
+
+## 2. Hero Section (The Hook)
+* **Visual:** High-quality photo of Denisa from `photos/`.
+* **Headline:** "From Code to Leadership. Your Guide to AI Transformation." (Translate to CZ based on locale).
+* **Subheadline:** Highlight the "Tech Expertise + Human Empathy" USP.
+* **Trust Badge:** Display **"🏆 EU Innovation Star 2024 Winner"** prominently near the headline.
+* **CTA:** Button linking to the Booking section.
+
+## 3. Client Logos (Trust)
+* **Design Constraint:** The logos in `client-logos/` have **WHITE backgrounds**.
+* **Solution:** This section's background MUST be `#FFFFFF` (White) so the logo boxes blend in invisibly.
+* **Layout:** A responsive grid or marquee. Use CSS `object-fit: contain` and specific heights to make all logos look symmetrical and visually balanced regardless of their original aspect ratio.
+
+## 4. Services (The Offer)
+* **Core Message:** "Transformation of Teams".
+* **Key Feature (MUST STAND OUT):** The **Subsidy (Dotace)** Card.
+    * Text: "Možnost využití 85-100% dotace" (85-100% Funding Available).
+    * Design: Use the Purple `#6100D1` to make this pop. It is a major selling point.
+    * Note: Denisa's team handles the paperwork.
+
+## 5. About Me (The Story & Authority)
+* **Source:** Use `Text-na-web-mně`.
+* **Narrative:** Connect the dots:
+    * **Ex-Pro Squash Player** (National Champion, European TOP 6) -> Discipline & Energy.
+    * **Ex-Fullstack Developer** (Greenfox Academy, 472+ hrs) -> Technical Deep Dive.
+    * **EU Innovation Star 2024** -> International Recognition.
+    * **Roles:** Co-founder Taskyo, MSIC Expert Group, AI & Business Lab Mentor.
+
+## 6. Testimonials (Social Proof)
+* **Source:** `mojeReference`.
+* **Layout:**
+    * **Top:** Two Video Testimonials (YouTube embeds). Make them responsive.
+    * **Bottom:** Grid of text reviews.
+* **Design:** Each review must show the Client Name, Role, Company, and their Photo.
+    * *Constraint:* Client photos are different sizes. CSS Force them into perfect circles (`rounded-full`) of the same dimension (e.g., `w-16 h-16`) with `object-fit: cover`.
+
+## 7. Media & Podcast
+* **Source:** `podcast a vystoupení`.
+* **Content:** Embed the Podcast video and the link to the Czech TV appearance.
+
+## 8. Contact Section (Conversion)
+* **Layout:** Split view (Left: Contact Info, Right: Form).
+* **Contact Info:**
+    * Email: `denisa@taskyo.cz` (clickable mailto).
+    * LinkedIn: [Denisa Rohunová](https://www.linkedin.com/in/denisa-rohunov%C3%A1-001a25225/) (Use LinkedIn Icon).
+* **Contact Form:**
+    * Fields: Name, Email, Message.
+    * Action: Configure it to send data to `denisa@taskyo.cz` (set up the UI and API route structure).
+* **Booking Widget:**
+    * Embed **Cal.com** directly here: `https://cal.com/denisa-rohunova-k2mxqr/30min`.
+    * Make sure the iframe is responsive.
+
+# Execution Instructions
+1.  Analyze the provided text files to extract the exact copy.
+2.  Set up the Next.js project structure with `next-intl` for localization.
+3.  Build the components mobile-first.
+4.  Apply `Framer Motion` for subtle entrance animations (fade-in up) as the user scrolls.
+5.  Ensure the "White Background" rule for logos is strictly followed.
+
+**Start by initializing the project and building the Hero and Logo sections.**

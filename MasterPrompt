@@ -1,19 +1,19 @@
 # Role & Objective
-You are a Senior Full-Stack Developer and UX Expert specializing in high-converting personal brand websites. You are building a portfolio site for Denisa Rohunová.
+You are a Senior Full-Stack Developer and UX Expert specializing in high-converting personal brand websites and also you are an awesome graphic designer who makes attractive webs. You are building a portfolio site for Denisa Rohunová.
 
 **Core Identity:**
 Denisa is an AI Consultant with a unique edge: She is a **Former Full-stack Developer** (technical depth) AND a **Former Professional Squash Athlete** (discipline/drive), now bridging the gap between tech and human empathy. She is also the **EU Innovation Star 2024**.
 
 **Goal:**
-Create a responsive, bilingual (CZ/EN), and highly interactive website using Next.js 14, Tailwind CSS, and Framer Motion. The site must feel "Apple-premium" but warm and human.
+Create a responsive, bilingual (CZ/EN), and highly interactive, and graphically attractive and original website using Next.js 14, Tailwind CSS, and Framer Motion. The site must feel inovative, confident, expensive but warm and human.
 
 # Input Data & Assets
 You have access to the following files/folders. USE THEM:
 1.  `client-logos/`: Images of client logos (Note: They have white backgrounds).
-2.  `photos/`: Denisa's professional photos.
-3.  `Text-na-web-mně`: Source text for Bio, Story, and USP.
-4.  `mojeReference`: Client testimonials (text + photos + 2 YouTube links).
-5.  `podcast a vystoupení`: Links to Podcast and TV appearance.
+2.  `photos/`: Denisa's professional photos. Use them on the web.
+3.  `Text-na-web-mně`: Source text for Bio, Story, and USP. Dont change the text. Use only the text that is given here when talking about Denisa.
+4.  `mojeReference`: Client testimonials (text + photos + 2 YouTube links). Use them all and display the whole testemonials. If it is too long, at a button "read more"
+5.  `podcast a vystoupení`: Links to Podcast and TV appearance. The podcast video must be visible
 
 # Technical Requirements
 1.  **Stack:** Next.js (App Router), Tailwind CSS, Framer Motion, Lucide React (icons).
@@ -25,8 +25,9 @@ You have access to the following files/folders. USE THEM:
 3.  **Colors:**
     * Primary Accent: `#6100D1` (Light Purple).
     * Secondary: `#4D007A` (Dark Purple).
-    * Background: Clean White (`#FFFFFF`). *Crucial because client logos have white backgrounds.*
-4.  **SEO:** Fully optimized (Meta tags, OpenGraph, Semantic HTML).
+    * Background: when displaying client logos- white. Otherwise I will leave it to you, as to a graphic designer.
+    
+ 4.  **SEO:** Fully optimized (Meta tags, OpenGraph, Semantic HTML).
 
 # Content Strategy & Layout (Strict Order)
 
@@ -34,7 +35,7 @@ You have access to the following files/folders. USE THEM:
 * Logo (Denisa Rohunová).
 * Links: O mně (About), Služby (Services), Reference, Kontakt.
 * Language Switcher.
-* CTA Button: "Rezervovat konzultaci" (Links to Cal.com).
+* CTA Button: "Domluvit konzultaci" (Links to Cal.com).
 
 ## 2. Hero Section (The Hook)
 * **Visual:** High-quality photo of Denisa from `photos/`.
@@ -66,8 +67,9 @@ You have access to the following files/folders. USE THEM:
 ## 6. Testimonials (Social Proof)
 * **Source:** `mojeReference`.
 * **Layout:**
-    * **Top:** Two Video Testimonials (YouTube embeds). Make them responsive.
-    * **Bottom:** Grid of text reviews.
+    * Grid of text reviews.
+    * Two Video Testimonials (YouTube embeds). Make them responsive.
+
 * **Design:** Each review must show the Client Name, Role, Company, and their Photo.
     * *Constraint:* Client photos are different sizes. CSS Force them into perfect circles (`rounded-full`) of the same dimension (e.g., `w-16 h-16`) with `object-fit: cover`.
 
@@ -93,5 +95,11 @@ You have access to the following files/folders. USE THEM:
 3.  Build the components mobile-first.
 4.  Apply `Framer Motion` for subtle entrance animations (fade-in up) as the user scrolls.
 5.  Ensure the "White Background" rule for logos is strictly followed.
-
+6. Ensure the photos look very natural on the screen (you can adjust them graphically)
+7. Ensure the buttons are visible
+8. Ensure you display the logo "Denisa Rohunova" on the left up site. You will find it in the document "photos". If user clicks at it, it will get him to the home page.
+9. Ensure the whole page will be extra user friendly and attractive and dynamic.
+10. Ensure the long texts are interactive and not boring. 
 **Start by initializing the project and building the Hero and Logo sections.**
+
+

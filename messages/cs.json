@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "about": "O mně",
+    "services": "Služby",
+    "testimonials": "Reference",
+    "contact": "Kontakt",
+    "cta": "Domluvit konzultaci"
+  },
+  "hero": {
+    "headline": "Spojuji svět inovací s lidským potenciálem",
+    "subheadline": "Umělá inteligence je o lidech, kteří ji používají. Moje mise je jednoduchá: zbavit vás strachu z neznámého, chaosu a ukázat vašemu týmu, jak se z AI může stát jejich nejsilnější parťák.",
+    "trustBadge": "🏆 EU Innovation Star 2024 Winner",
+    "cta": "Domluvit konzultaci"
+  },
+  "services": {
+    "title": "Služby",
+    "mainTitle": "Od chaosu k efektivitě: Řešení na míru vaší firmě",
+    "mainIntro": "Každá firma je jiná. Proto nenabízím krabicová školení, která druhý den zapomenete. Nabízím transformaci procesů, která vychází přímo z vaší DNA.",
+    "mainProduct": "Komplexní AI Transformace Týmu",
+    "process": {
+      "title": "Jak to probíhá",
+      "step1": {
+        "title": "Analýza stavu",
+        "description": "Nejdřív naslouchám. Zjistím, jak na tom váš tým je, kde v procesech \"plavete\" a kde nám zbytečně utíkají peníze nebo čas."
+      },
+      "step2": {
+        "title": "Praktický trénink",
+        "description": "Ukážu vašim lidem AI na jejich vlastní práci. Budou zkoušet, chybovat a učit se v bezpečném prostředí. Mým cílem je, aby odcházeli s pocitem: \"Wow, tohle mi ušetří hodiny práce!\""
+      },
+      "step3": {
+        "title": "Dlouhodobý efekt",
+        "description": "Nezmizím. Zůstávám s vámi v kontaktu, abychom se ujistili, že si změny \"sedly\" a tým je skutečně používá."
+      }
+    },
+    "subsidy": {
+      "title": "Inovujte téměř zdarma",
+      "description": "Na celý tento program vám zajistíme financování. Díky spolupráci s mým týmem můžete na tuto transformaci čerpat 85–100 % dotaci. Vyřídíme to za vás na klíč. Vy inovujte, stát platí.",
+      "highlight": "Možnost využití 85-100% dotace"
+    },
+    "individual": {
+      "title": "Individuální Konzultace",
+      "subtitle": "Osobní AI Mentoring",
+      "description": "Máte specifický problém? Nebo se jen potřebujete zorientovat v možnostech AI pro vaši roli? Domluvme si hodinu, kde se podíváme na vaše konkrétní výzvy. Lidsky, srozumitelně, efektivně."
+    }
+  },
+  "about": {
+    "title": "O mně",
+    "story": "Věřím, že skutečná digitální transformace začíná vytvořením bezpečného prostředí, kde se lidé nebojí ptát a experimentovat. Mám technickou expertízu, abych navrhla ta nejefektivnější řešení, ale mou superschopností je empatie. Dokážu se naladit na atmosféru ve vašem týmu, pochopit obavy jednotlivců a proměnit je v nadšení pro inovace.\n\nJsem energická, přímá a trpělivá. Se mnou nečekejte nudné přednášky. Čekejte \"aha momenty\", smích a hlavně reálné výsledky. Neučím jen \"jak klikat\". Učím týmy přemýšlet jinak."
+  },
+  "testimonials": {
+    "title": "Reference"
+  },
+  "success": {
+    "title": "Úspěchy a důvěra",
+    "items": {
+      "innovation": "EU Innovation Star 2024 – Reprezentantka ČR, European Leadership Academy",
+      "developer": "Ex-Fullstack Developer – 472+ hodin intenzivního vývoje & kódování",
+      "msic": "Členka expertní skupiny – MSIC (Moravskoslezské inovační centrum)",
+      "cofounder": "Co-Founder – Taskyo s.r.o.",
+      "squash": "Top 6 v Evropě – Bývalá reprezentantka ve squashi"
+    }
+  },
+  "media": {
+    "title": "Média a podcasty",
+    "podcast": "Podcast Innovation",
+    "tv": "Česká televize"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "info": {
+      "title": "Kontaktní informace"
+    },
+    "email": "denisa@taskyo.cz",
+    "linkedin": "LinkedIn",
+    "form": {
+      "name": "Jméno",
+      "email": "Email",
+      "message": "Zpráva",
+      "submit": "Odeslat",
+      "sending": "Odesílám...",
+      "success": "Zpráva byla úspěšně odeslána!",
+      "error": "Něco se pokazilo. Zkuste to prosím znovu."
+    },
+    "booking": {
+      "title": "Nebo si rovnou domluvte konzultaci"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "cta": "Book a consultation"
+  },
+  "hero": {
+    "headline": "Connecting the world of innovation with human potential",
+    "subheadline": "Artificial intelligence is about the people who use it. My mission is simple: to free you from fear of the unknown and chaos, and show your team how AI can become their strongest partner.",
+    "trustBadge": "🏆 EU Innovation Star 2024 Winner",
+    "cta": "Book a consultation"
+  },
+  "services": {
+    "title": "Services",
+    "mainTitle": "From chaos to efficiency: Solutions tailored to your company",
+    "mainIntro": "Every company is different. That's why I don't offer boxed training that you'll forget the next day. I offer process transformation that comes directly from your DNA.",
+    "mainProduct": "Comprehensive AI Team Transformation",
+    "process": {
+      "title": "How it works",
+      "step1": {
+        "title": "State analysis",
+        "description": "First, I listen. I find out how your team is doing, where you're \"swimming\" in processes, and where money or time is unnecessarily escaping us."
+      },
+      "step2": {
+        "title": "Practical training",
+        "description": "I'll show your people AI in their own work. They'll try, make mistakes, and learn in a safe environment. My goal is for them to leave feeling: \"Wow, this will save me hours of work!\""
+      },
+      "step3": {
+        "title": "Long-term effect",
+        "description": "I won't disappear. I stay in touch with you to make sure the changes have \"settled in\" and the team is actually using them."
+      }
+    },
+    "subsidy": {
+      "title": "Innovate almost for free",
+      "description": "We'll secure funding for this entire program. Thanks to cooperation with my team, you can draw 85–100% subsidy for this transformation. We'll handle it for you turnkey. You innovate, the state pays.",
+      "highlight": "85-100% funding available"
+    },
+    "individual": {
+      "title": "Individual Consultation",
+      "subtitle": "Personal AI Mentoring",
+      "description": "Do you have a specific problem? Or do you just need to get oriented in AI possibilities for your role? Let's schedule an hour where we'll look at your specific challenges. Humanly, clearly, effectively."
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "story": "I believe that true digital transformation begins with creating a safe environment where people are not afraid to ask and experiment. I have the technical expertise to design the most effective solutions, but my superpower is empathy. I can tune into the atmosphere in your team, understand individual concerns, and turn them into enthusiasm for innovation.\n\nI'm energetic, direct, and patient. Don't expect boring lectures from me. Expect \"aha moments\", laughter, and above all, real results. I don't just teach \"how to click\". I teach teams to think differently."
+  },
+  "testimonials": {
+    "title": "Testimonials"
+  },
+  "success": {
+    "title": "Success and Trust",
+    "items": {
+      "innovation": "EU Innovation Star 2024 – Czech Republic Representative, European Leadership Academy",
+      "developer": "Ex-Fullstack Developer – 472+ hours of intensive development & coding",
+      "msic": "Member of expert group – MSIC (Moravian-Silesian Innovation Center)",
+      "cofounder": "Co-Founder – Taskyo s.r.o.",
+      "squash": "Top 6 in Europe – Former squash representative"
+    }
+  },
+  "media": {
+    "title": "Media & Podcasts",
+    "podcast": "Innovation Podcast",
+    "tv": "Czech Television"
+  },
+  "contact": {
+    "title": "Contact",
+    "info": {
+      "title": "Contact Information"
+    },
+    "email": "denisa@taskyo.cz",
+    "linkedin": "LinkedIn",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "error": "Something went wrong. Please try again."
+    },
+    "booking": {
+      "title": "Or book a consultation directly"
+    }
+  }
+}

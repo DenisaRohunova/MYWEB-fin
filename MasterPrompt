@@ -100,6 +100,7 @@ You have access to the following files/folders. USE THEM:
 8. Ensure you display the logo "Denisa Rohunova" on the left up site. You will find it in the document "photos". If user clicks at it, it will get him to the home page.
 9. Ensure the whole page will be extra user friendly and attractive and dynamic.
 10. Ensure the long texts are interactive and not boring. 
+11. Ensure that when a website is in English - all texts on the web will be translated to ENGLISH including testemonials. When the language is setup to CZECH-all texts will be in Czech including testemonials.
 **Start by initializing the project and building the Hero and Logo sections.**
 
 

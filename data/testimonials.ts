@@ -14,17 +14,6 @@ export interface Testimonial {
 
 export const testimonials: Testimonial[] = [
   {
-    id: 'josef-eder',
-    name: 'Ing. Josef Eder',
-    role: 'Jednatel společnosti',
-    company: 'SLUŽBY MĚSTA JIHLAVY s.r.o.',
-    photo: 'https://jihlavanasemesto.cz/wp-content/uploads/2024/02/eder2.jpg',
-    text: {
-      cs: 'Lektorka Denisa je velmi pozitivní člověk a svým nadšením dokázala přesvědčit i ty skeptiky, kteří přicházeli s určitým chladným zájmem. Jak výstižně zhodnotil kolega: „Na kurz AI jsem přicházel s despektem, ale díky Denise odcházím s nadšením a respektem". Přestože mezi lektorkou a některými posluchači byl výrazný věkový rozdíl, tak dokázala mluvit srozumitelně a lidsky. Takže za mě palce nahoru.',
-      en: 'Lecturer Denisa is a very positive person and with her enthusiasm she managed to convince even the skeptics who came with a certain cold interest. As a colleague aptly put it: "I came to the AI course with disdain, but thanks to Denisa I leave with enthusiasm and respect". Even though there was a significant age difference between the lecturer and some listeners, she managed to speak clearly and humanly. So thumbs up from me.'
-    }
-  },
-  {
     id: 'video-1',
     name: 'Video Reference 1',
     role: '',
@@ -51,6 +40,17 @@ export const testimonials: Testimonial[] = [
     videoUrl: 'https://www.youtube.com/embed/Cc5NSdrdtRs'
   },
   {
+    id: 'petr-dvorak',
+    name: 'Petr Dvořák',
+    role: '',
+    company: 'Mercedes-Benz Česká republika s.r.o.',
+    photo: 'https://framerusercontent.com/images/75mL4xErohx3bYpwYgZlsvU2c.jpeg',
+    text: {
+      cs: 'AI je bezpochyby velice aktuální téma a dá se s ním velice dobře pracovat. Denisa tohle umí, ale přidává něco zásadního navíc. Pozitivní energii, klidnou sílu a laskavost. To zabírá u naprosté většiny posluchačů. Pro změnu myšlení tahle kombinace prostě výborně funguje...',
+      en: 'AI is undoubtedly a very current topic and can be worked with very well. Denisa knows how to do this, but adds something fundamentally extra. Positive energy, calm strength and kindness. This works with the vast majority of listeners. For changing thinking, this combination simply works excellently...'
+    }
+  },
+  {
     id: 'tereza-svobodova',
     name: 'Tereza Svobodová',
     role: 'Provozní ředitelka',
@@ -62,14 +62,47 @@ export const testimonials: Testimonial[] = [
     }
   },
   {
-    id: 'petr-dvorak',
-    name: 'Petr Dvořák',
-    role: '',
-    company: 'Mercedes-Benz Česká republika s.r.o.',
-    photo: 'https://framerusercontent.com/images/75mL4xErohx3bYpwYgZlsvU2c.jpeg',
+    id: 'katerina-jirglova',
+    name: 'Ing. Kateřina Jirglová',
+    role: 'Ředitelka',
+    company: 'Mezi námi, o.p.s.',
+    photo: 'https://static.wixstatic.com/media/3b6e39_1849f98629324592bab51f14f56a6341~mv2.jpg/v1/crop/x_0,y_15,w_340,h_340/fill/w_320,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/KATE%C5%98INA-JIRGLOV%C3%81-1-340x370.jpg',
     text: {
-      cs: 'AI je bezpochyby velice aktuální téma a dá se s ním velice dobře pracovat. Denisa tohle umí, ale přidává něco zásadního navíc. Pozitivní energii, klidnou sílu a laskavost. To zabírá u naprosté většiny posluchačů. Pro změnu myšlení tahle kombinace prostě výborně funguje...',
-      en: 'AI is undoubtedly a very current topic and can be worked with very well. Denisa knows how to do this, but adds something fundamentally extra. Positive energy, calm strength and kindness. This works with the vast majority of listeners. For changing thinking, this combination simply works excellently...'
+      cs: 'Ráda bych poděkovala Denise za pomoc při zefektivnění dokumentace našich mezigeneračních aktivit. Vytvořený formulář a aplikace na archivaci fotek nám pomohly zpřehlednit procesy a výrazně zjednodušit každodenní administrativu. Oceňujeme zejména zohlednění našich specifických požadavků na přehlednost, jednoduchost ovládání a propojení s Google Diskem. I velmi milou, vstřícnou a profesionální spolupráci.',
+      en: 'I would like to thank Denisa for helping to streamline the documentation of our intergenerational activities. The created form and photo archiving application helped us organize processes and significantly simplify daily administration. We especially appreciate the consideration of our specific requirements for clarity, ease of use and integration with Google Drive. As well as the very friendly, accommodating and professional cooperation.'
+    }
+  },
+  {
+    id: 'josef-eder',
+    name: 'Ing. Josef Eder',
+    role: 'Jednatel společnosti',
+    company: 'SLUŽBY MĚSTA JIHLAVY s.r.o.',
+    photo: 'https://jihlavanasemesto.cz/wp-content/uploads/2024/02/eder2.jpg',
+    text: {
+      cs: 'Lektorka Denisa je velmi pozitivní člověk a svým nadšením dokázala přesvědčit i ty skeptiky, kteří přicházeli s určitým chladným zájmem. Jak výstižně zhodnotil kolega: „Na kurz AI jsem přicházel s despektem, ale díky Denise odcházím s nadšením a respektem". Přestože mezi lektorkou a některými posluchači byl výrazný věkový rozdíl, tak dokázala mluvit srozumitelně a lidsky. Takže za mě palce nahoru.',
+      en: 'Lecturer Denisa is a very positive person and with her enthusiasm she managed to convince even the skeptics who came with a certain cold interest. As a colleague aptly put it: "I came to the AI course with disdain, but thanks to Denisa I leave with enthusiasm and respect". Even though there was a significant age difference between the lecturer and some listeners, she managed to speak clearly and humanly. So thumbs up from me.'
+    }
+  },
+  {
+    id: 'hana-doucha',
+    name: 'Hana Doucha',
+    role: '',
+    company: 'Mandario Company s.r.o.',
+    photo: 'https://vyrobce-parfemu.cz/images/logo/mandario_logo_3.png',
+    text: {
+      cs: 'S Denisou jsme absolvovali celodenní školení na AI Gemini. Velmi úspěšně dokázala odbourat obavy z AI u úplných začátečníků v týmu a těm pokročilejším nabídla inspirativní rozšíření obzorů. Její nadšení pro AI dodalo celému školení skvělou energii. Děkujeme!',
+      en: 'We completed a full-day training on AI Gemini with Denisa. She very successfully managed to eliminate AI fears among complete beginners in the team and offered inspiring expansion of horizons to more advanced ones. Her enthusiasm for AI brought great energy to the entire training. Thank you!'
+    }
+  },
+  {
+    id: 'dalibor-simek',
+    name: 'Ing. Dalibor Šimek, Ph.D.',
+    role: 'CEO',
+    company: 'SP WERKO s.r.o.',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAQeRlgyhozeoMoAJwBTwGtBAqvYRnfA2SkQ&s',
+    text: {
+      cs: 'Denisu a kolegy z TASKYO s.r.o. vřele doporučuju. Společně jsme pracovali na automatizaci obchodních procesů s využítím umělé inteligence u nás ve firmě SP WERKO. Konkrétně se jednalo cílený průzkum kontaktů a automatizaci sbírání kontaktů skrze Linkedin a následné automatické oslovování. Působíme na celosvětovém B2B trhu, který je ale poměrně niche, ale to nezabránilo tomu, že se nám automatizace podařila a zefektivnila se prvotní fáze našeho obchodního procesu.',
+      en: 'I warmly recommend Denisa and colleagues from TASKYO s.r.o. Together we worked on automating business processes using artificial intelligence at our company SP WERKO. Specifically, it was a targeted research of contacts and automation of collecting contacts through LinkedIn and subsequent automated outreach. We operate in a global B2B market that is quite niche, but that did not prevent us from succeeding with automation and streamlining the initial phase of our business process.'
     }
   },
   {
@@ -191,6 +224,28 @@ export const testimonials: Testimonial[] = [
     text: {
       cs: 'Už několikrát jsme měli to potěšení přivítat Denisu ve Startovárně Ostrava a pokaždé je to jízda plná praktických tipů, inspirace a nových pohledů na svět AI. Její nadšení pro téma je nakažlivé. Denisa mluví o AI tak, že vás to začne bavit dřív, než si stihnete otevřít notebook. Vysvětlí, ukáže, zopakuje. Každá otázka je pro ni další šance, jak vás pro AI nadchnout. A funguje to. Děkujeme a těšíme se na pokračování.',
       en: 'We have had the pleasure of welcoming Denisa to Startovárna Ostrava several times and each time it is a ride full of practical tips, inspiration and new perspectives on the world of AI. Her enthusiasm for the topic is contagious. Denisa talks about AI in such a way that you start to enjoy it before you even have time to open your notebook. She explains, shows, repeats. Every question is another chance for her to get you excited about AI. And it works. Thank you and we look forward to continuing.'
+    }
+  },
+  {
+    id: 'darek-szynder',
+    name: 'Darek Szynder',
+    role: 'ACC/ICF kouč',
+    company: '',
+    photo: 'https://framerusercontent.com/images/y5d6EBHl4WDAWF4mqyIm7Thoko.jpeg?scale-down-to=512',
+    text: {
+      cs: 'Na webináři s Denisou mě příjemně překvapilo, jak přirozený má projev a jak jednoduše dokáže vysvětlit i složité věci. Školení bylo užitečné i pro laiky. I lidé bez předchozího kontaktu s AI si z něj odnesli konkrétní inspiraci do praxe. Denisa dokáže svým přístupem nadchnout pro umělou inteligenci i úplné začátečníky, takže účastníci odcházeli plní nové motivace.',
+      en: 'At the webinar with Denisa, I was pleasantly surprised by how natural her presentation is and how simply she can explain even complex things. The training was useful even for laypeople. Even people without previous contact with AI took away concrete inspiration for practice. Denisa can inspire even complete beginners for artificial intelligence with her approach, so participants left full of new motivation.'
+    }
+  },
+  {
+    id: 'martina-rusinova',
+    name: 'Martina Rusinová',
+    role: '',
+    company: 'Linde Material Handling Česká republika',
+    photo: 'https://framerusercontent.com/images/G3F6vL0dQHE5PkvYrCZhGpYwhE.jpeg?scale-down-to=512',
+    text: {
+      cs: 'Měla jsem možnost absolvovat školení AI s Denisou Rohunovou a byla to trefa do černého. Denisa skvěle kombinuje přehled v tématu, praktické ukázky a srozumitelný výklad, který sedne i lidem mimo IT bublinu. Školení bylo věcné, svižné a přitom lidské. Žádná nudná teorie, ale konkrétní postupy, které jdou hned využít v praxi. A bonus? Denisa má dar udělat i složitější věci jednoduché 🍀👍 Doporučuju všem, kdo chtějí s AI opravdu začít pracovat – bez balastu, rovnou k věci.',
+      en: 'I had the opportunity to attend AI training with Denisa Rohunová and it was right on target. Denisa excellently combines overview of the topic, practical demonstrations and clear explanation that resonates even with people outside the IT bubble. The training was factual, brisk and yet human. No boring theory, but concrete procedures that can be used immediately in practice. And a bonus? Denisa has the gift of making even more complex things simple 🍀👍 I recommend it to everyone who wants to really start working with AI – without ballast, straight to the point.'
     }
   }
 ];

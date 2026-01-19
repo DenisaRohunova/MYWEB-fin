@@ -2,7 +2,6 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/navigation';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
@@ -26,19 +25,20 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm"
+      className="fixed top-0 left-0 right-0 z-50 bg-[#0a0514]/80 backdrop-blur-md border-b border-primary/20 shadow-lg"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          <Link href="/" className="flex items-center">
-            <Image
-              src="/photos/my-personal-brand-logo.png"
-              alt="Denisa Rohunová"
-              width={120}
-              height={40}
-              className="h-10 w-auto"
-              priority
-            />
+          {/* Logo - Minimalist Text Based */}
+          <Link href="/" className="flex items-center group">
+            <div className="flex items-baseline gap-2">
+              <span className="text-lg sm:text-xl lg:text-2xl font-bold text-primary tracking-[0.15em]">
+                DENISA
+              </span>
+              <span className="text-lg sm:text-xl lg:text-2xl font-normal text-white tracking-[0.15em]">
+                ROHUNOVÁ
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
@@ -47,7 +47,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-primary transition-colors font-medium"
+                className="text-gray-300 hover:text-primary transition-colors font-medium"
               >
                 {link.label}
               </Link>
@@ -56,15 +56,13 @@ export default function Navbar() {
             <Link
               href="/"
               locale={newLocale}
-              className="px-3 py-1 text-sm font-medium text-gray-700 hover:text-primary border border-gray-300 rounded-md hover:border-primary transition-colors"
+              className="px-3 py-1 text-sm font-medium text-gray-300 hover:text-primary border border-primary/30 rounded-md hover:border-primary transition-colors bg-primary/10"
             >
               {locale === 'cs' ? 'EN' : 'CZ'}
             </Link>
 
             <a
-              href="https://cal.com/denisa-rohunova-k2mxqr/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#booking"
               className="bg-primary text-white px-6 py-2 rounded-lg font-semibold hover:bg-secondary transition-colors shadow-lg hover:shadow-xl"
             >
               {t('cta')}
@@ -74,7 +72,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-gray-700"
+            className="md:hidden p-2 text-gray-300"
             aria-label="Toggle menu"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -94,7 +92,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="block text-gray-700 hover:text-primary transition-colors font-medium"
+                className="block text-gray-300 hover:text-primary transition-colors font-medium"
               >
                 {link.label}
               </Link>
@@ -103,14 +101,12 @@ export default function Navbar() {
               href="/"
               locale={newLocale}
               onClick={() => setIsOpen(false)}
-              className="block w-full text-left px-3 py-1 text-sm font-medium text-gray-700 hover:text-primary border border-gray-300 rounded-md hover:border-primary transition-colors"
+              className="block w-full text-left px-3 py-1 text-sm font-medium text-gray-300 hover:text-primary border border-primary/30 rounded-md hover:border-primary transition-colors bg-primary/10"
             >
               {locale === 'cs' ? 'EN' : 'CZ'}
             </Link>
             <a
-              href="https://cal.com/denisa-rohunova-k2mxqr/30min"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#booking"
               onClick={() => setIsOpen(false)}
               className="block bg-primary text-white px-6 py-2 rounded-lg font-semibold hover:bg-secondary transition-colors text-center"
             >

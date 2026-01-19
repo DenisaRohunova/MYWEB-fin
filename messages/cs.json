@@ -4,18 +4,17 @@
     "services": "Služby",
     "testimonials": "Reference",
     "contact": "Kontakt",
-    "cta": "Domluvit konzultaci"
+    "cta": "Domluvit schůzku"
   },
   "hero": {
-    "headline": "Spojuji svět inovací s lidským potenciálem",
+    "headline": "Pomáhám firmám využít AI v praxi",
     "subheadline": "Umělá inteligence je o lidech, kteří ji používají. Moje mise je jednoduchá: zbavit vás strachu z neznámého, chaosu a ukázat vašemu týmu, jak se z AI může stát jejich nejsilnější parťák.",
-    "trustBadge": "🏆 EU Innovation Star 2024 Winner",
-    "cta": "Domluvit konzultaci"
+    "cta": "Domluvit schůzku"
   },
   "services": {
-    "title": "Služby",
-    "mainTitle": "Od chaosu k efektivitě: Řešení na míru vaší firmě",
-    "mainIntro": "Každá firma je jiná. Proto nenabízím krabicová školení, která druhý den zapomenete. Nabízím transformaci procesů, která vychází přímo z vaší DNA.",
+    "title": "Jak probíhá spolupráce?",
+    
+    "mainIntro": "Každý tým je jiný. Proto nenabízím krabicová školení, která druhý den zapomenete. Nabízím transformaci procesů, která vychází přímo z vaší DNA.",
     "mainProduct": "Komplexní AI Transformace Týmu",
     "process": {
       "title": "Jak to probíhá",
@@ -45,10 +44,37 @@
   },
   "about": {
     "title": "O mně",
-    "story": "Věřím, že skutečná digitální transformace začíná vytvořením bezpečného prostředí, kde se lidé nebojí ptát a experimentovat. Mám technickou expertízu, abych navrhla ta nejefektivnější řešení, ale mou superschopností je empatie. Dokážu se naladit na atmosféru ve vašem týmu, pochopit obavy jednotlivců a proměnit je v nadšení pro inovace.\n\nJsem energická, přímá a trpělivá. Se mnou nečekejte nudné přednášky. Čekejte \"aha momenty\", smích a hlavně reálné výsledky. Neučím jen \"jak klikat\". Učím týmy přemýšlet jinak."
+    "subtitle": "Můj příběh od programátorky k AI konzultantce",
+    "story": "Věřím, že skutečná digitální transformace začíná vytvořením bezpečného prostředí, kde se lidé nebojí ptát a experimentovat. Mám technickou expertízu, abych navrhla ta nejefektivnější řešení a mou superschopností je empatie. Dokážu se naladit na atmosféru ve vašem týmu, pochopit obavy jednotlivců a proměnit je v nadšení pro inovace.\n\nJsem energická, přímá a trpělivá. Se mnou nečekejte nudné přednášky. Čekejte \"aha momenty\", smích a hlavně reálné výsledky. Neučím jen \"jak klikat\". Učím týmy přemýšlet jinak.",
+    "quote": "Věřím, že skutečná digitální transformace začíná vytvořením bezpečného prostředí, kde se lidé nebojí ptát a experimentovat.",
+    "quoteSubtext": "Mám technickou expertízu, abych navrhla ta nejefektivnější řešení a mou superschopností je empatie.",
+    "storySteps": {
+      "step1": {
+        "title": "Disciplína a vytrvalost",
+        "content": "Své dětství a dospívání jsem strávila na squashovém kurtě. Naučilo mě to disciplíně a vytrvalosti. Podařilo se mi dostat do top 6 v Evropě a jsem bývalá reprezentantka ve squashi."
+      },
+      "step2": {
+        "title": "2023: Objev vášně",
+        "content": "Vystudovala jsem IT zaměřenou vysokou školu a prošla intenzivním programem, kde jsem strávila 472+ hodin vývoje s mentorem. Měla jsem domluvený nástup do firmy jako junior fullstack vývojářka. Jenže když přišla vlna AI, něco se ve mně zlomilo a já začala firmám v okolí ukazovat, jak AI využít jednoduše a prakticky."
+      },
+      "step3": {
+        "title": "2023: První workshop",
+        "content": "Pak mi jednou zavolalo neznámé číslo: \"Školíte?\" Mám ráda výzvy, tak jsem do toho šla. Byla jsem nervózní, ale připravená. Odezva byla skvělá a já jsem v tu chvíli věděla, že tohle je moje cesta. Krátce na to jsem spoluzaložila Taskyo a dnes s týmy zavádíme AI do praxe a automatizujeme klíčové procesy tak, aby to mělo reálný dopad."
+      },
+      "step4": {
+        "title": "2024: Innovation Star",
+        "content": "V roce 2024 jsem byla vybrána z tisíců žen z celé Evropy, abych reprezentovala Česko na European Leadership Academy, kde jsem za své výsledky v inovování firem získala ocenění Innovation Star 2024 a stala jsem se členkou expertní skupiny MSIC (Moravskoslezské inovační centrum)."
+      },
+      "step5": {
+        "title": "Aha momenty",
+        "content": "Nejvíc mě baví, když lidem ukážu něco a oni jsou z toho paf. Zjistí: 'Wow, to mi ušetří tolik času!' To je to, z čeho jsem nadšená."
+      }
+    }
   },
   "testimonials": {
-    "title": "Reference"
+    "title": "Reference",
+    "showAll": "Zobrazit všechny reference",
+    "showLess": "Zobrazit méně"
   },
   "success": {
     "title": "Úspěchy a důvěra",
@@ -84,5 +110,10 @@
     "booking": {
       "title": "Nebo si rovnou domluvte konzultaci"
     }
+  },
+  "footer": {
+    "copyright": "Všechna práva vyhrazena.",
+    "createdBy": "Web vytvořilo",
+    "company": "Taskyo s.r.o."
   }
 }

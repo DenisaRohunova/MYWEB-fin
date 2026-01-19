@@ -7,15 +7,15 @@
     "cta": "Book a consultation"
   },
   "hero": {
-    "headline": "Connecting the world of innovation with human potential",
+    "headline": "I help companies use AI in practice",
     "subheadline": "Artificial intelligence is about the people who use it. My mission is simple: to free you from fear of the unknown and chaos, and show your team how AI can become their strongest partner.",
     "trustBadge": "🏆 EU Innovation Star 2024 Winner",
     "cta": "Book a consultation"
   },
   "services": {
-    "title": "Services",
+    "title": "How does collaboration work?",
     "mainTitle": "From chaos to efficiency: Solutions tailored to your company",
-    "mainIntro": "Every company is different. That's why I don't offer boxed training that you'll forget the next day. I offer process transformation that comes directly from your DNA.",
+    "mainIntro": "Every team is different. That's why I don't offer boxed training that you'll forget the next day. I offer process transformation that comes directly from your DNA.",
     "mainProduct": "Comprehensive AI Team Transformation",
     "process": {
       "title": "How it works",
@@ -45,10 +45,37 @@
   },
   "about": {
     "title": "About Me",
-    "story": "I believe that true digital transformation begins with creating a safe environment where people are not afraid to ask and experiment. I have the technical expertise to design the most effective solutions, but my superpower is empathy. I can tune into the atmosphere in your team, understand individual concerns, and turn them into enthusiasm for innovation.\n\nI'm energetic, direct, and patient. Don't expect boring lectures from me. Expect \"aha moments\", laughter, and above all, real results. I don't just teach \"how to click\". I teach teams to think differently."
+    "subtitle": "My story from programmer to AI consultant",
+    "story": "I believe that true digital transformation begins with creating a safe environment where people are not afraid to ask and experiment. I have the technical expertise to design the most effective solutions and my superpower is empathy. I can tune into the atmosphere in your team, understand individual concerns, and turn them into enthusiasm for innovation.\n\nI'm energetic, direct, and patient. Don't expect boring lectures from me. Expect \"aha moments\", laughter, and above all, real results. I don't just teach \"how to click\". I teach teams to think differently.",
+    "quote": "I believe that true digital transformation begins with creating a safe environment where people are not afraid to ask and experiment.",
+    "quoteSubtext": "I have the technical expertise to design the most effective solutions and my superpower is empathy.",
+    "storySteps": {
+      "step1": {
+        "title": "Discipline and perseverance",
+        "content": "I spent my childhood and adolescence on the squash court. It taught me discipline and perseverance. I managed to get into the top 6 in Europe and I am a former squash representative."
+      },
+      "step2": {
+        "title": "2023: Discovering passion",
+        "content": "I graduated from an IT-focused university and went through an intensive program where I spent 472+ hours of development with a mentor. I had an arranged start at a company as a junior fullstack developer. But when the AI wave came, something broke in me and I started showing companies around me how to use AI simply and practically."
+      },
+      "step3": {
+        "title": "2023: First workshop",
+        "content": "Then one day an unknown number called me: \"Do you train?\" I like challenges, so I went for it. I was nervous but prepared. The response was great and at that moment I knew this was my path. Shortly after, I co-founded Taskyo and today we're implementing AI in practice with teams and automating key processes to have a real impact."
+      },
+      "step4": {
+        "title": "2024: Innovation Star",
+        "content": "In 2024, I was selected from thousands of women across Europe to represent the Czech Republic at the European Leadership Academy, where I received the Innovation Star 2024 award for my results in innovating companies and became a member of the expert group MSIC (Moravian-Silesian Innovation Center)."
+      },
+      "step5": {
+        "title": "Aha moments",
+        "content": "What I enjoy most is when I show people something and they are blown away. They realize: 'Wow, this will save me so much time!' That's what I'm passionate about."
+      }
+    }
   },
   "testimonials": {
-    "title": "Testimonials"
+    "title": "Testimonials",
+    "showAll": "Show all testimonials",
+    "showLess": "Show less"
   },
   "success": {
     "title": "Success and Trust",
@@ -84,5 +111,10 @@
     "booking": {
       "title": "Or book a consultation directly"
     }
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "createdBy": "Web created by",
+    "company": "Taskyo s.r.o."
   }
 }

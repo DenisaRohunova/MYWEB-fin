@@ -115,9 +115,24 @@ The application will be available at [http://localhost:3000](http://localhost:30
 8. **Media**: Podcast and TV appearances
 9. **Contact**: Contact form, info, and Cal.com booking widget
 
+## Email Configuration
+
+The contact form uses [Resend](https://resend.com) to send emails. To enable email functionality:
+
+1. **Create a Resend account** at https://resend.com
+2. **Get your API key** from the Resend dashboard (API Keys section)
+3. **Create a `.env.local` file** in the root directory with:
+   ```env
+   RESEND_API_KEY=re_your_api_key_here
+   RESEND_FROM_EMAIL=contact@yourdomain.com
+   CONTACT_EMAIL=denisa@taskyo.cz
+   ```
+4. **Verify your domain** in Resend (or use `onboarding@resend.dev` for testing)
+
+**Note**: The `RESEND_FROM_EMAIL` must be a verified domain in Resend. For testing, you can use `onboarding@resend.dev`.
+
 ## Notes
 
-- The contact form API route (`app/api/contact/route.ts`) currently logs submissions. You'll need to integrate an email service (like Resend, SendGrid, etc.) for production.
 - All images should be placed in the `public/` directory
 - The website defaults to Czech (cs) but can be switched to English (en)
 

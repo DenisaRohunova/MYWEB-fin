@@ -3,30 +3,40 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
+// All logos from client-logos folder, ensuring no duplicates
 const logos = [
-  'mercedes.jpg',
-  'asklepion.jpg',
-  'czech-tv.jpg',
-  'EU-leadership-academy.jpg',
-  'msic.jpg',
   'ai-asociaon--we-are-part-of.jpg',
+  'asklepion.jpg',
   'bayo.jpg',
   'comac-cal.jpg',
+  'czech-tv.jpg',
   'dva-mluvci.jpg',
+  'EU-leadership-academy.jpg',
+  'Logo MEZI NAMI PNG - ctverec.jpg',
   'mandario.jpg',
   'marketingOn.jpg',
+  'mercedes.jpg',
+  'msic.jpg',
   'new-dimension.jpg',
   'ostrava-muzeum.jpg',
   'septim.jpg',
   'slu-opf.jpg',
   'SMJ.jpg',
   'SMO.JPG',
-];
+].filter((logo, index, self) => self.indexOf(logo) === index); // Remove duplicates
 
 export default function ClientLogos() {
   return (
-    <section className="py-16 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 bg-white relative overflow-hidden">
+      {/* Subtle background pattern */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0" style={{
+          backgroundImage: 'radial-gradient(circle at 2px 2px, #6100D1 1px, transparent 0)',
+          backgroundSize: '40px 40px'
+        }} />
+      </div>
+      
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -40,7 +50,8 @@ export default function ClientLogos() {
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1, duration: 0.4 }}
+              transition={{ delay: index * 0.05, duration: 0.4 }}
+              whileHover={{ scale: 1.1, y: -5 }}
               className="flex items-center justify-center h-20 grayscale hover:grayscale-0 transition-all duration-300"
             >
               <Image

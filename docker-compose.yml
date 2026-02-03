@@ -1,33 +1,15 @@
-version: "3.9"
+version: '3.8'
 
 services:
   web:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: myweb_web
-    restart: unless-stopped
-    environment:
-      NODE_ENV: production
-      PORT: "3000"
-      HOSTNAME: "0.0.0.0"
-    expose:
-      - "3000"
-
-  caddy:
-    image: caddy:2
-    container_name: myweb_caddy
-    restart: unless-stopped
+    container_name: denisa-portfolio
+    build: .
+    restart: always
     ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-    depends_on:
-      - web
-
-volumes:
-  caddy_data:
-  caddy_config:
+      - "3000:3000"
+    environment:
+      - RESEND_API_KEY=re_ajMzJoCy_C76Ubqh4CikKC7dKtDnezP17
+      - RESEND_FROM_EMAIL=onboarding@resend.dev
+      - CONTACT_EMAIL=denisa@taskyo.cz
+      # Tímto zajistíme, že Next.js build bude ignorovat chyby i v Dockeru
+      - NEXT_TELEMETRY_DISABLED=1

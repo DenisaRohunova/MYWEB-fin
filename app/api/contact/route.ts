@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+// ZDE JSME SMAZALI GLOBÁLNÍ INICIALIZACI, KTERÁ DĚLALA PROBLÉMY
 
 export async function POST(request: Request) {
   try {
@@ -33,6 +33,9 @@ export async function POST(request: Request) {
         { status: 500 }
       );
     }
+
+    // 👇 OPRAVA: Inicializace Resend až TADY (uvnitř funkce a po kontrole klíče)
+    const resend = new Resend(process.env.RESEND_API_KEY);
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({

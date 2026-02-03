@@ -1,0 +1,4 @@
+denisarohunova.cz, www.denisarohunova.cz {
+  encode gzip
+  reverse_proxy web:3000
+}

@@ -7,8 +7,8 @@
     "cta": "Domluvit schůzku"
   },
   "hero": {
-    "headline": "Pomáhám firmám využít AI v praxi",
-    "subheadline": "Umělá inteligence je o lidech, kteří ji používají. Moje mise je jednoduchá: zbavit vás strachu z neznámého, chaosu a ukázat vašemu týmu, jak se z AI může stát jejich nejsilnější parťák.",
+    "headline": "Zvýším efektivitu vašeho týmu +40%",
+    "subheadline": "Nečinnost je v době technologického skoku největší riziko. Pomůžu vašemu týmu překonat bariéry a naučím ho využívat AI k radikálnímu zvýšení efektivity. Jen 1 % firem umí využít AI, dostanu vás mezi ně.",
     "cta": "Domluvit schůzku"
   },
   "services": {
@@ -23,8 +23,8 @@
         "description": "Nejdřív naslouchám. Zjistím, jak na tom váš tým je, kde v procesech \"plavete\" a kde nám zbytečně utíkají peníze nebo čas."
       },
       "step2": {
-        "title": "Praktický trénink",
-        "description": "Ukážu vašim lidem AI na jejich vlastní práci. Budou zkoušet, chybovat a učit se v bezpečném prostředí. Mým cílem je, aby odcházeli s pocitem: \"Wow, tohle mi ušetří hodiny práce!\""
+        "title": "Praktická část",
+        "description": "Naučím vás použít AI na přímo na vašich procesech a být radikálně efektivnější. Budete zkoušet, chybovat a učit se v bezpečném prostředí. Mým cílem je, aby odcházeli s pocitem: \"Wow, tohle nám ušetří hodiny práce!\""
       },
       "step3": {
         "title": "Dlouhodobý efekt",
@@ -33,8 +33,7 @@
     },
     "subsidy": {
       "title": "Inovujte téměř zdarma",
-      "description": "Na celý tento program vám zajistíme financování. Díky spolupráci s mým týmem můžete na tuto transformaci čerpat 85–100 % dotaci. Vyřídíme to za vás na klíč. Vy inovujte, stát platí.",
-      "highlight": "Možnost využití 85-100% dotace"
+      "description": "Na celý tento program vám zajistíme financování. Díky spolupráci s mým týmem může být vaše investice minimální. Vyřídíme to za vás na klíč."
     },
     "individual": {
       "title": "Individuální Konzultace",
@@ -44,30 +43,50 @@
   },
   "about": {
     "title": "O mně",
-    "subtitle": "Můj příběh od programátorky k AI konzultantce",
-    "story": "Věřím, že skutečná digitální transformace začíná vytvořením bezpečného prostředí, kde se lidé nebojí ptát a experimentovat. Mám technickou expertízu, abych navrhla ta nejefektivnější řešení a mou superschopností je empatie. Dokážu se naladit na atmosféru ve vašem týmu, pochopit obavy jednotlivců a proměnit je v nadšení pro inovace.\n\nJsem energická, přímá a trpělivá. Se mnou nečekejte nudné přednášky. Čekejte \"aha momenty\", smích a hlavně reálné výsledky. Neučím jen \"jak klikat\". Učím týmy přemýšlet jinak.",
-    "quote": "Věřím, že skutečná digitální transformace začíná vytvořením bezpečného prostředí, kde se lidé nebojí ptát a experimentovat.",
-    "quoteSubtext": "Mám technickou expertízu, abych navrhla ta nejefektivnější řešení a mou superschopností je empatie.",
-    "storySteps": {
-      "step1": {
-        "title": "Disciplína a vytrvalost",
-        "content": "Své dětství a dospívání jsem strávila na squashovém kurtě. Naučilo mě to disciplíně a vytrvalosti. Podařilo se mi dostat do top 6 v Evropě a jsem bývalá reprezentantka ve squashi."
+    "subtitle": "Kdo jsem a čeho jsem dosáhla",
+    "showMore": "Zobrazit více",
+    "showLess": "Zobrazit méně",
+    "cards": {
+      "experience": {
+        "title": "3+ let praxe",
+        "shortText": "Mám více než 3 roky zkušeností s implementací AI řešení a transformací firemních procesů.",
+        "imageAlt": "Denisa na konferenci"
       },
-      "step2": {
-        "title": "2023: Objev vášně",
-        "content": "Vystudovala jsem IT zaměřenou vysokou školu a prošla intenzivním programem, kde jsem strávila 472+ hodin vývoje s mentorem. Měla jsem domluvený nástup do firmy jako junior fullstack vývojářka. Jenže když přišla vlna AI, něco se ve mně zlomilo a já začala firmám v okolí ukazovat, jak AI využít jednoduše a prakticky."
+      "innovation": {
+        "title": "Innovation Star 2024",
+        "shortText": "V roce 2024 jsem byla vybrána z tisíců žen z celé Evropy, abych reprezentovala Česko na European Leadership Academy.",
+        "fullText": "V roce 2024 jsem byla vybrána z tisíců žen z celé Evropy, abych reprezentovala Česko na European Leadership Academy, kde jsem za své výsledky v inovování firem získala ocenění Innovation Star 2024 a stala jsem se členkou expertní skupiny MSIC (Moravskoslezské inovační centrum).",
+        "imageAlt": "European Leadership Academy"
       },
-      "step3": {
-        "title": "2023: První workshop",
-        "content": "Pak mi jednou zavolalo neznámé číslo: \"Školíte?\" Mám ráda výzvy, tak jsem do toho šla. Byla jsem nervózní, ale připravená. Odezva byla skvělá a já jsem v tu chvíli věděla, že tohle je moje cesta. Krátce na to jsem spoluzaložila Taskyo a dnes s týmy zavádíme AI do praxe a automatizujeme klíčové procesy tak, aby to mělo reálný dopad."
+      "president": {
+        "title": "Představení projektu Petru Pavlovi",
+        "shortText": "V roce 2025 jsem byla pozvána na Zámek Lány představit svou práci prezidentovi Petru Pavlovi a získat přímou zpětnou vazbu.",
+        "imageAlt": "Představení projektu prezidentovi Petru Pavlovi"
       },
-      "step4": {
-        "title": "2024: Innovation Star",
-        "content": "V roce 2024 jsem byla vybrána z tisíců žen z celé Evropy, abych reprezentovala Česko na European Leadership Academy, kde jsem za své výsledky v inovování firem získala ocenění Innovation Star 2024 a stala jsem se členkou expertní skupiny MSIC (Moravskoslezské inovační centrum)."
+      "squash": {
+        "title": "Bývalá profesionální hráčka squashe",
+        "shortText": "Několikanásobná mistryně republiky, členka české reprezentace, evropská TOP6.",
+        "imageAlt": "Denisa hrající squash"
       },
-      "step5": {
-        "title": "Aha momenty",
-        "content": "Nejvíc mě baví, když lidem ukážu něco a oni jsou z toho paf. Zjistí: 'Wow, to mi ušetří tolik času!' To je to, z čeho jsem nadšená."
+      "education": {
+        "title": "Vzdělání a cesta k AI",
+        "shortText": "Vystudovala jsem IT zaměřenou vysokou školu a prošla intenzivním programem s 472+ hodinami vývoje s mentorem.",
+        "fullText": "Vystudovala jsem IT zaměřenou vysokou školu a prošla intenzivním programem, kde jsem strávila 472+ hodin vývoje s mentorem. Měla jsem domluvený nástup do firmy jako junior fullstack vývojářka. Jenže když přišla vlna AI, něco se ve mně zlomilo a já začala firmám v okolí ukazovat, jak AI využít jednoduše a prakticky."
+      },
+      "taskyo": {
+        "title": "Spoluzakladatelka Taskyo",
+        "shortText": "Spoluzaložila jsem Taskyo, kde pracuji s vedením firem i jejich týmy.",
+        "fullText": "Spoluzaložila jsem Taskyo, kde pracuji s vedením firem i jejich týmy. Navrhujeme AI řešení na míru, školíme lidi a automatizujeme klíčové procesy tak, aby AI nebyla experiment, ale součást fungování firmy.",
+        "logoAlt": "Logo Taskyo"
+      },
+      "international": {
+        "title": "Zahraniční zkušenosti",
+        "shortText": "Mám zkušenosti také se zahraničními firmami. Konzultovala jsem v Londýně i Portugalsku.",
+        "imageAlt": "Denisa při prezentaci"
+      },
+      "lab": {
+        "title": "AI & Business Lab CZ",
+        "shortText": "Garantka zavádění inovací a mentorka v projektu AI & business Lab CZ."
       }
     }
   },

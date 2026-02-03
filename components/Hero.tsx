@@ -96,11 +96,32 @@ export default function Hero() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
-              className="text-[57.6px] sm:text-[69.12px] lg:text-[92.16px] font-black leading-[1.2] text-white pb-4 overflow-visible break-words"
+              className="text-[57.6px] sm:text-[69.12px] lg:text-[92.16px] font-black leading-[1.1] text-white pb-4"
             >
               <span className="block gradient-text">
                 {(() => {
                   const headline = t('headline').trim();
+                  
+                  // Special handling for efficiency percentage headline with + sign
+                  const efficiencyMatch = headline.match(/^(.+?)\s*\+(\d+)%$/i);
+                  if (efficiencyMatch) {
+                    const [, mainText, number] = efficiencyMatch;
+                    return (
+                      <>
+                        <span className="block">{mainText}</span>
+                        <motion.span
+                          initial={{ scale: 0.9, opacity: 0 }}
+                          animate={{ scale: 1, opacity: 1 }}
+                          transition={{ delay: 0.6, duration: 0.4 }}
+                          className="inline-block mt-2 text-[1.2em] sm:text-[1.3em] lg:text-[1.4em] bg-gradient-to-r from-[#FF6B9D] to-[#6100D1] bg-clip-text text-transparent font-black"
+                        >
+                          +{number}%
+                        </motion.span>
+                      </>
+                    );
+                  }
+                  
+                  // Fallback for other headlines
                   if (headline.includes(' v praxi')) {
                     const parts = headline.split(' v praxi');
                     return (

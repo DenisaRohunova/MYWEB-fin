@@ -12,7 +12,7 @@ export default function Services() {
   const [isHovering, setIsHovering] = useState(false);
 
   return (
-    <section id="services" className="relative py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#0a0514] via-[#1a0a2e] to-[#0a0514] overflow-hidden">
+    <section id="services" className="relative pt-32 pb-12 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-[#0a0514] via-[#1a0a2e] to-[#0a0514] overflow-hidden">
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-1/4 left-0 w-1/2 h-1/2 bg-primary/5 rounded-full blur-3xl" />
@@ -88,9 +88,6 @@ export default function Services() {
             <div className="relative z-10">
               <h4 className="text-3xl font-black mb-4">{t('subsidy.title')}</h4>
               <p className="text-xl mb-6 opacity-95 leading-relaxed">{t('subsidy.description')}</p>
-              <div className="inline-block bg-white/20 backdrop-blur-sm px-8 py-4 rounded-xl border-2 border-white/30 mb-10">
-                <p className="text-2xl font-black">{t('subsidy.highlight')}</p>
-              </div>
               <motion.a
                 href="#booking"
                 onMouseEnter={() => setIsHovering(true)}

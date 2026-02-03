@@ -4,25 +4,26 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 // All logos from client-logos folder, ensuring no duplicates
+// Ordered: Mercedes Benz first, then Asklepion, Česká televize, Septim, SMO, and others
 const logos = [
+  'mercedes.jpg',                    // Mercedes Benz - first
+  'asklepion.jpg',                   // Asklepion - second
+  'czech-tv.jpg',                    // Česká televize - third
+  'septim.jpg',                      // Septim - fourth
+  'SMO.JPG',                         // SMO - fifth
   'ai-asociaon--we-are-part-of.jpg',
-  'asklepion.jpg',
   'bayo.jpg',
   'comac-cal.jpg',
-  'czech-tv.jpg',
   'dva-mluvci.jpg',
   'EU-leadership-academy.jpg',
   'Logo MEZI NAMI PNG - ctverec.jpg',
   'mandario.jpg',
   'marketingOn.jpg',
-  'mercedes.jpg',
   'msic.jpg',
   'new-dimension.jpg',
   'ostrava-muzeum.jpg',
-  'septim.jpg',
   'slu-opf.jpg',
   'SMJ.jpg',
-  'SMO.JPG',
 ].filter((logo, index, self) => self.indexOf(logo) === index); // Remove duplicates
 
 export default function ClientLogos() {

@@ -85,7 +85,7 @@ You have access to the following files/folders. USE THEM:
     * Fields: Name, Email, Message.
     * Action: Configure it to send data to `denisa@taskyo.cz` (set up the UI and API route structure).
 * **Booking Widget:**
-    * Embed **Cal.com** directly here: `https://cal.com/denisa-rohunova-k2mxqr/30min`.
+    * Embed **Cal.com** directly here: `https://cal.com/denisa-rohunova-k2mxqr/15min?overlayCalendar=true&date=2026-02-26`.
     * Make sure the iframe is responsive.
 
 # Execution Instructions

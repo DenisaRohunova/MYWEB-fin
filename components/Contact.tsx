@@ -183,7 +183,7 @@ export default function Contact() {
           <div className="bg-white/5 backdrop-blur-xl rounded-2xl p-4 border-2 border-primary/20">
             <div className="relative w-full" style={{ minHeight: '600px' }}>
               <iframe
-                src="https://cal.com/denisa-rohunova-k2mxqr/30min"
+                src="https://cal.com/denisa-rohunova-k2mxqr/15min?overlayCalendar=true&date=2026-02-26"
                 className="w-full h-full min-h-[600px] rounded-lg"
                 frameBorder="0"
                 title="Book a consultation"

@@ -7,7 +7,10 @@
     "cta": "Book a consultation"
   },
   "hero": {
-    "headline": "I will increase your team's efficiency +40%",
+    "headline": "I will increase your team's efficiency +25%",
+    "researchNote": "According to extensive Harvard research, people working with AI are 25% faster and the quality of their outputs is 40% higher.",
+    "researchLink": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+    "researchLinkText": "Harvard Study",
     "subheadline": "Inaction is the biggest risk during a technological leap. I'll help your team overcome barriers and teach them to use AI for radical efficiency gains. Only 1% of companies can leverage AI - I'll get you among them.",
     "trustBadge": "🏆 EU Innovation Star 2024 Winner",
     "cta": "Book a consultation"

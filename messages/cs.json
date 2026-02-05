@@ -7,7 +7,10 @@
     "cta": "Domluvit schůzku"
   },
   "hero": {
-    "headline": "Zvýším efektivitu vašeho týmu +40%",
+    "headline": "Zvýším efektivitu vašeho týmu +25%",
+    "researchNote": "Podle rozsáhlého výzkumu Harvardu jsou lidé pracující s AI o 25 % rychlejší a kvalita jejich výstupů je o 40 % vyšší.",
+    "researchLink": "https://www.hbs.edu/faculty/Pages/item.aspx?num=64700",
+    "researchLinkText": "Harvard Study",
     "subheadline": "Nečinnost je v době technologického skoku největší riziko. Pomůžu vašemu týmu překonat bariéry a naučím ho využívat AI k radikálnímu zvýšení efektivity. Jen 1 % firem umí využít AI, dostanu vás mezi ně.",
     "cta": "Domluvit schůzku"
   },

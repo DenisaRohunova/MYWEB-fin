@@ -143,10 +143,29 @@ export default function Hero() {
               </span>
             </motion.h1>
 
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.65, duration: 0.8 }}
+              className="text-base sm:text-lg text-gray-400 leading-relaxed max-w-2xl mb-4"
+            >
+              <p>
+                {t('researchNote')}{' '}
+                <a
+                  href={t('researchLink')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-secondary underline decoration-2 underline-offset-2 transition-colors"
+                >
+                  {t('researchLinkText')}
+                </a>
+              </p>
+            </motion.div>
+
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.6, duration: 0.8 }}
+              transition={{ delay: 0.7, duration: 0.8 }}
               className="text-xl sm:text-2xl text-gray-300 leading-relaxed max-w-2xl"
             >
               {t('subheadline')}

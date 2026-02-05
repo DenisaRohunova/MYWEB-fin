@@ -55,6 +55,14 @@ export default function About() {
       imageAlt: t('cards.experience.imageAlt'),
     },
     {
+      id: 'computertrends',
+      icon: Trophy,
+      title: t('cards.computertrends.title'),
+      shortText: t('cards.computertrends.shortText'),
+      image: '/photos/computertrends.jpg',
+      imageAlt: t('cards.computertrends.imageAlt'),
+    },
+    {
       id: 'innovation',
       icon: Award,
       title: t('cards.innovation.title'),

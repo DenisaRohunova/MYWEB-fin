@@ -2,10 +2,33 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import { Metadata } from 'next';
 import '../globals.css';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://denisarohunova.cz';
+  
+  return {
+    description: 'Denisa Rohunová - Zvýším efektivitu vašeho týmu +25%',
+    openGraph: {
+      title: 'Denisa Rohunová - Zvýším efektivitu vašeho týmu +25%',
+      description: 'Your Guide to AI Transformation',
+      type: 'website',
+      images: [
+        {
+          url: `${baseUrl}/photos/profesional-portrait-of-me-top.jpeg`,
+          width: 1200,
+          height: 630,
+          alt: 'Denisa Rohunová',
+        },
+      ],
+    },
+  };
 }
 
 export default async function LocaleLayout({
@@ -26,11 +49,6 @@ export default async function LocaleLayout({
   return (
     <html lang={locale}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Denisa Rohunová - AI Consultant specializing in team transformation and AI implementation" />
-        <meta property="og:title" content="Denisa Rohunová - AI Consultant" />
-        <meta property="og:description" content="Your Guide to AI Transformation" />
-        <meta property="og:type" content="website" />
         <link rel="icon" href="/favicon.ico" />
       </head>
       <body>
